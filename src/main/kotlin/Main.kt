@@ -1,5 +1,6 @@
 fun main()
 {
+    println("Введите символы")
     val text = readln()
     var new_text = ""
     var counter = 1
