@@ -1,11 +1,14 @@
 fun main() {
-    println("Введите сюда текст")
-    val text = readln()
-    val counterChar = mutableMapOf<Char, Int>()
-    var new_text = ""
-    text.forEach { char -> counterChar[char] = counterChar.getOrDefault(char, 0) + 1 }
-    counterChar.toSortedMap().forEach { (char, count) ->
-        new_text += "$char - $count\n"
+    //Lr3
+    var number = readln().toInt()
+    var binaryNumber = 0
+    var rank = 1
+    var mod: Int
+    while (number> 0) {
+        mod = number % 2
+        number /= 2
+        binaryNumber += mod * rank
+        rank *= 10
     }
-    println(new_text)
+    println(binaryNumber)
 }
