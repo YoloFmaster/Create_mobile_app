@@ -1,5 +1,6 @@
 fun main() {
     //Lr4
+    println("Введите два числа и операцию")
     val expression = readln()
     var num1char = ""
     var num2char = ""
