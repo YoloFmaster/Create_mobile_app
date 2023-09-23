@@ -1,5 +1,6 @@
 fun main(){
     //Lr5
+    println("Ведтите число и степень через пробел")
     val text = readln()
     var xStr = ""
     var nStr = ""
