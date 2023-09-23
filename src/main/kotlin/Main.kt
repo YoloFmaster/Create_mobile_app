@@ -9,6 +9,7 @@ fun main()
     for (item in text.substring(1)) {
         i++
         if (s != item || i == text.length) {
+            if (i == text.length) counter++
             if (counter > 1) {
                 new_text += "$s$counter"
             }
