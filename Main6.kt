@@ -1,4 +1,5 @@
 fun main() {
+    prinln("Введите два числа через enter")
     val a = readln()
     val b = readln()
     var num1: String? = null
