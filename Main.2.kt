@@ -1,5 +1,5 @@
 fun main() {
-    //Lr3
+    //Lr2
     println("Введите сюда текст")
     val text = readln()
     val counterChar = mutableMapOf<Char, Int>()
